@@ -1,0 +1,16 @@
+{
+  "name": "ts_benchmark",
+  "version": "1.0.0",
+  "description": "benchmark test the speed of serverless functions written in typescript",
+  "main": "index.ts",
+  "author": "Rishi.ad",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/node": "^2.10.3",
+    "ioredis": "^5.3.1"
+  }
+}
